@@ -99,7 +99,20 @@
 
 <slide class=''><hgroup><h2>R Markdown on GitHub</h2></hgroup><article  id="r-markdown-on-github">
 
-<p>While the rest of this document is a standard ioslides template from RStudio, here I&#39;ll list some steps for putting a document on GitHub. This is entirely a test document!</p>
+<p>While the rest of this document is a standard ioslides template from RStudio, here I&#39;ll list some steps for putting a document on GitHub. This is entirely a test document! Some good notes on github can be found <a href='http://jr0cket.co.uk/slides/getting-started-with-git.html#/sec-2' title=''>here</a> and <a href='http://jr0cket.co.uk/2014/01/share-your-revealjs-slides-on-github-pages.html' title=''>here</a>. Guid to follow is <a href='https://guides.github.com/features/pages/' title=''>here</a> <strong>Step 1</strong> Create the slide as usual. From this document I get a .html and a .Rmd file in the directory. I&#39;ve put them into a folder on their own.</p>
+
+<p><strong>Step 2</strong> Create the git repo from there. <strong>Must</strong> call it username.github.io. Go to your directory then <code>git init</code> Then <code>git add .</code> Then <code>git commit</code></p>
+
+<p><strong>Step 3</strong> Connect to github. Create a new repo in github and then on the terminal type (for me!)</p>
+
+<pre >git remote add origin https://github.com/DonRegan/TestPresentation.git
+git push -u origin master</pre>
+
+</article></slide><slide class=''><hgroup><h2></h2></hgroup><article >
+
+<p><strong>Step 4</strong> This is all very standard. But now I need a <code>gh-pages</code> branch because that&#39;s where the slides can be hosted. The steps are <a href='https://guides.github.com/features/pages/' title=''>here</a></p>
+
+<p>On github go to Settings &#8230; and enable GitHub pages =&gt; site available at <a href='https://donregan.github.io/TestPresentation/' title=''>https://donregan.github.io/TestPresentation/</a></p>
 
 </article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown">
 
